@@ -1,0 +1,35 @@
+# bundle gem defaults
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+Gemfile.lock
+InstalledFiles
+_yardoc
+coverage
+# used for extended markdown documentation
+# doc/
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# hide coveralls key
+.coveralls.yml
+# rubocop
+.rubocop_todo.yml
+# OS cruft
+*.DS_Store
+Gemfile.lock
+*.swp
+
+# Local Vagrant env and VM stuff
+.vagrant/
+*.box
+*.ova
+*.jva
+*.qcow2
